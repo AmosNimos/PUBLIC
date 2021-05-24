@@ -1,0 +1,78 @@
+#import code
+open:file_name.bog?x:r:x;
+
+
+#initialise variable
+int x = 5
+float x = 5.5
+string t = text
+bool true
+
+
+#if
+i:5+5=10:
+	#print
+	p:t
+	#if inside if
+	0[i:5+x!11:
+		p:t
+		1[i:5+x=5+5:
+			p:t
+		1[ei:6-x=0:
+			p:t
+		1[e:
+			p:t
+		;]1
+	;]0
+;
+
+#in single line
+i:5+5=10:p:text0,0[i:5+5!11:p:text1,1[i:5+5=5+5:p:text2,1[ei:6-6=0:,p:text,1[e:p:text,;]1;]0;
+
+#default function
+visual:width,height;
+pixel:x,y,r,g,b;
+open:file_name.format?x:r:x;
+play:sound_file,volume;
+sound:frequance,waveforme,volume;
+
+#while
+w:5+5=10:
+	p:text0
+e:
+	p:optional else
+
+#function
+f:name:int x:
+	#add x to x
+	x+x
+	#return
+	r:x
+;
+
+#class
+c:name:int x:
+	.x=x
+
+
+#or
+|
+
+#and
+&
+
+#not
+!
+
+#square
+^
+#square root
+^^
+
+#round
+@()
+
+#random
+random()
+
+
