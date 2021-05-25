@@ -1,3 +1,52 @@
+# most resent version:______________
+f: = function
+c: = class
+fl: = for loop
+w: = while
+p: = print
+i: = if
+ei: = elif
+e: = else
+r: = return
+; = end
+. = end of line
+, = separate argument
+rm: = remove content of index index
+#: = comment as long as no end of line used
+
+#or
+|
+
+#and
+&
+
+#not
+!
+
+#square
+^
+#square root
+^^
+#equal
+=
+
+#add to
++
+
+#remove
+-
+
+#round
+ro:
+
+#random flaot
+rn:from,to
+
+# section
+@index: = a variable containing stuff that is read as code.
+
+______________________________________________________________________ previus test of somme idea --->
+
 #import code
 open:file_name.bog?x:r:x;
 
@@ -86,51 +135,3 @@ if x==5:
 		y=0
 
 f:function_name:int x: i:x<0:x=0,ei:
-
-
-# most resent version:______________
-f: = function
-c: = class
-fl: = for loop
-w: = while
-p: = print
-i: = if
-ei: = elif
-e: = else
-r: = return
-; = end
-. = end of line
-, = separate argument
-rm: = remove content of index index
-#: = comment as long as no end of line used
-
-#or
-|
-
-#and
-&
-
-#not
-!
-
-#square
-^
-#square root
-^^
-#equal
-=
-
-#add to
-+
-
-#remove
--
-
-#round
-ro:
-
-#random flaot
-rn:from,to
-
-# section
-@index: = a variable containing stuff that is read as code.
