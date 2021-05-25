@@ -54,6 +54,55 @@ f:name:int x:
 c:name:int x:
 	.x=x
 
+///in proto
+[i:x=5:@0,@1,e:y=0]
+	@0:[i:y=2&x=5:x+1,y-1,e:x-1]
+	@1:[i:y=3:x+1,@2,ei:y=1:x-1,e:y=0]
+		@2:[p:x] #Normally used for if, while or for, this is just for the example
+
+///in proto single line
+i:x=5:@0,@1,e:y=0;@0:i:y=2&x=5:x+1,y-1,e:x-1;@1:i:y=3:x+1,@2,ei:y=1:x-1,e:y=0;@2:p:x; 
+
+
+/// proto multiline
+i:x=5:@0,@1,e:y=0;
+	@0:i:y=2&x=5:x+1,y-1,e:x-1;
+	@1:i:y=3:x+1,@2,ei:y=1:x-1,e:y=0;
+		@2:p:x; 
+
+/// in python
+if x==5:
+	if y==2 and x==5:
+		x+=1
+		y-=1
+	else:
+		x-=1
+	if y==3:
+		x+=1
+		print(x)
+	elif y==1:
+		x-=1
+	else
+		y=0
+
+f:function_name:int x: i:x<0:x=0,ei:
+
+
+# most resent version:______________
+f: = function
+c: = class
+fl: = for loop
+w: = while
+p: = print
+i: = if
+ei: = elif
+e: = else
+r: = return
+; = end
+. = end of line
+, = separate argument
+rm: = remove content of index index
+#: = comment as long as no end of line used
 
 #or
 |
@@ -68,11 +117,20 @@ c:name:int x:
 ^
 #square root
 ^^
+#equal
+=
+
+#add to
++
+
+#remove
+-
 
 #round
-@()
+ro:
 
-#random
-random()
+#random flaot
+rn:from,to
 
-
+# section
+@index: = a variable containing stuff that is read as code.
