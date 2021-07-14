@@ -15,7 +15,7 @@ import pyttsx3
 handOneSize = 0;
 handTwoSize = 0;
 deckSize = 60;
-handLimit = 4;
+handLimit = 8;
 firstDraw=7;
 deck=[]
 deckOne = [];
@@ -47,18 +47,19 @@ else:
 	playerTwoDrew=False;
 
 #field
-field=[[0,0,0,0],[0,0,0,0],[0,0,0,0],[0,0,0,0],[0,0,0,0],[0,0,0,0],[0,0,0,0]];
+field=[[0,0,0,0],[0,0,0,0],[0,0,0,0],[0,0,0,0],[0,0,0,0],[0,0,0,0],[0,0,0,0],[0,0,0,0],[0,0,0,0],[0,0,0,0]];
 
 # symbol
 cantPlaceSymbol = "x" #red
 lookAtCardSymbol = "?" #green for monster and yellow for Terrain
 holdingCardSymbol ="%" #green for monster and yellow for Terrain
-cursorSymbol = "*" #white for empty
+cursorSymbol = "🔍" #white for empty
 monsterCardSymbol = "#" #green for monster
 TerrainCardSymbol = "@" #yellow for Terrain
 cardBackSymbol="🔳";
-cardFrontSymbol="🔍";
-emptySpaceSymbol="⬛";
+cardTapedSymbol="⬛"
+cardFrontSymbol="⬜";
+emptySpaceSymbol="  ";
 colors = ["[RED 🔴]","[Green 🟢]","[White ⚪]","Black ⚫","[Blue 🔵]"];
 singAmount=len(colors)-1;
 emoji = ["🀄🃏🎴💾💽💿📀⛔?🔳⬛⬜🔍🔴🔵🟢⚪⚫"];
@@ -398,6 +399,9 @@ def GameOver():
 		text="Player one win!";
 		print(text);
 		saySound(text);
+		
+def discard_a_card():
+	card_selected=
 
 os.system('clear')
 displayTop();
@@ -408,9 +412,12 @@ displayHandOne();
 
 while True:
 	playerLastAction="";
-
+	
 	if playerTurn == 0:
 		keypress = main();
+		if handOneSize > 7:
+			discard_a_card()
+		#Discard a card
 		playerOneTurn(keypress);
 	elif playerTurn == 1:
 		playerTwoTurn();
