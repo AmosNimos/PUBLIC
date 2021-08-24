@@ -1,0 +1,19 @@
+
+Pythagore:sqrt(a^2+b^2)=c;
+
+Triangle(F=x°,H=y°,G=z°) Formula: 180°-(x°+y°)=z°;
+
+Trigonometric ratios in the right-angle triangle: Sin=Opposite/Hypotenuse, Cos=Adjacent/Hypotenuse, Tan=Opposite/Adjacent;
+
+cross product Values: x/1=2/3, Formula: 1*2/3=x, Description: "Multiply the diagonally known variable, then divide the result by the remaining known variable, to obtain the value of the unknown variable";
+
+Triangle Optu: >90°, Description: "sin(A) = sin(180°-A)";
+Triangle acut: <90°;
+
+Law of sin: a/sin(A°)=b/sin(B°)=c/sin(C°), Description: "lowercase = Opposite uppercase degree";
+
+Heron: S=sqrt(p(p-a)(p-b)(p-c)), Description: "p = perimetre, s = air";
+
+
+
+
