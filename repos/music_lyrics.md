@@ -43,4 +43,3 @@ it's gonna be fine!
 
 ---
 > By Amos Nimos
-with the collaboration of:
