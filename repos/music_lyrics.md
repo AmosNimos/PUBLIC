@@ -1,3 +1,4 @@
+~~~
 indoctrination of the nation
 disinformation on television
 
@@ -26,7 +27,7 @@ mass histeria
 
 big data and the media
 
-maybe some of us are paranoid but some of them are right to be.
+maybe some of us are paranoid but some of us are right to be.
 
 denial of reality
 
@@ -38,6 +39,8 @@ suppression and deletion
 
 everything is fine, no need to worry
 it's gonna be fine!
+~~~
 
-By Amos Nimos
+---
+> By Amos Nimos
 with the collaboration of:
